@@ -21,6 +21,7 @@
             <![endif] -->
         <script type='text/javascript' src='js/jquery-1.11.0.min.js'></script>
         <script type='text/javascript' src='js/jquery.custom.js'></script>
+        <script type='text/javascript' src='js/contact.js'></script>
         <script type='text/javascript' src='js/modernizr.custom.js'></script>
     </head>
     <body id="contact" class="cbp-spmenu-push">
@@ -81,7 +82,7 @@
                         <div class="three_fifth">
                             <h3>Let's get in touch</h3>
                             <p>Discovery Tubulars welcomes all comments, questions and sale inquiries. Please contact us by phone, or submit the form below and the appropriate representative will promptly get back to you.</p>
-                            <form method='post' class="contact-form" action='http://www.raytemplates.com/html/fresh/contact.html'>
+                            <fieldset id="contact_form" class="contact-form">
                                 <div class="column">
                                     <div class="one_third">
                                         <label>Name</label> <span class="required">*</span><br/>
@@ -99,9 +100,9 @@
                                         <label>Message</label><br/>
                                         <textarea name='message' rows='15' cols='40'></textarea>
                                     </div>
-                                    <input type='submit' value='submit'>
+                                    <input type='submit' value='submit' id="submit_btn" class="submit_btn">
                                 </div>
-                            </form>
+                            </fieldset>
                         </div>
                         <div class="two_fifth column_last">
                             <div class="icon-box">
